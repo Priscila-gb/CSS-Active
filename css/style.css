@@ -1,0 +1,36 @@
+body{
+    background: #222222;
+}
+#h1{
+    color: #ffffff;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background: #c22929;
+    font-family: arial, verdana, sans-serif;
+    border-radius: 8px;
+}
+#img{
+    border: 3px dotted #3700ff;
+    width: 400px;
+    border-radius: 8px;
+    align-items: center;
+}
+#img:active{
+    border: 3px solid #008cff;
+    transform: rotatez(-30deg);
+    border-radius: 8px;
+    align-items: center;
+    
+}
+#img2{
+    border: 3px solid #008cff;
+    width: 400px;
+    border-radius: 8px;
+}
+#img2:active{
+    border: 3px dotted #3700ff;
+    transform: scale(0.9);
+    border-radius: 8px;
+}
